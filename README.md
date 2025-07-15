@@ -61,7 +61,6 @@ You are welcome to use any of the slides, vector images, and SVG image codes for
 ## 📖 References
 
 1. **Yang, Z., Yang, D., Dyer, C., He, X., Smola, A., & Hovy, E.** (2016). *Hierarchical Attention Networks for Document Classification*. In Proceedings of NAACL-HLT. [[PDF]](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
-
 2. **Medentsiy, V.** *Document Representations*. University of Amsterdam. [[Slides]](https://cl-illc.github.io/semantics/resources/slides/DocumentRepresentations.pdf)
 
 ---
