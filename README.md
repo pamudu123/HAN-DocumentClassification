@@ -3,39 +3,35 @@
 > **Paper**: Hierarchical Attention Networks for Document Classification (2016)  
 > **Authors**: Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, Eduard Hovy
 
+### 📄 Research Paper
+[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
+
+### 🎥 Video Presentation
+[HAN Document Classification Presentation](https://www.youtube.com/watch?v=JfgFRSjEucE&t=43s&ab_channel=PamuduRanasinghe)
+
+## Model Overview
 **Key Features of this approach:**
 - Hierarchical document structure modeling (words → sentences → documents)
 - Dual attention mechanisms for words and sentences
 - Superior performance on document classification tasks
 - Interpretable attention weights for understanding model decisions
 
-## 💡 Key Innovation
+### 💡 Key Innovation
 
 > *"This hierarchical approach mirrors human reading comprehension with sentences followed by words and gives attention to important words and sentences. Very creative idea!"*
 
-The HAN architecture addresses the limitation of traditional RNNs in handling long sequences by:
-1. **Word-level attention**: Identifying important words within sentences
-2. **Sentence-level attention**: Determining which sentences are most relevant for classification
-3. **Hierarchical encoding**: Building document representations from word and sentence encodings
+## 📖 References
 
-## 📚 Resources
+1. **Yang, Z., Yang, D., Dyer, C., He, X., Smola, A., & Hovy, E.** (2016). *Hierarchical Attention Networks for Document Classification*. In Proceedings of NAACL-HLT. [[PDF]](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
+2. **Medentsiy, V.** *Document Representations*. University of Amsterdam. [[Slides]](https://cl-illc.github.io/semantics/resources/slides/DocumentRepresentations.pdf)
 
-### 🎥 Video Presentation
-**YouTube**: [HAN Document Classification Presentation](https://www.youtube.com/watch?v=JfgFRSjEucE&t=43s&ab_channel=PamuduRanasinghe)
+**📧 Contact**: For questions or collaborations, feel free to reach out through the YouTube channel or GitHub.
 
-### 📄 Research Paper
-**Original Paper**: [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
+**⭐ Star this repository** if you find it helpful for your research or studies!
 
-### 💻 Implementation
-**Paper with Code**: [Coming Soon]
-
----
+`You are welcome to use any of the slides, vector images, and SVG image codes for your academic work.`
 
 ## 🖼️ Presentation Slides
-
-<details>
-<summary>Click to view all slides (15 slides total)</summary>
-
 ![Slide 1 - Title](presentation_slides/slide1.PNG)
 ![Slide 2 - Introduction](presentation_slides/slide2.PNG)
 ![Slide 3 - Motivation](presentation_slides/slide3.PNG)
@@ -51,20 +47,3 @@ The HAN architecture addresses the limitation of traditional RNNs in handling lo
 ![Slide 13 - Analysis](presentation_slides/slide13.PNG)
 ![Slide 14 - Visualization](presentation_slides/slide14.PNG)
 ![Slide 15 - Conclusion](presentation_slides/slide15.PNG)
-
-</details>
-
-## 📝 Usage & Attribution
-
-You are welcome to use any of the slides, vector images, and SVG image codes for your academic work.  
-
-## 📖 References
-
-1. **Yang, Z., Yang, D., Dyer, C., He, X., Smola, A., & Hovy, E.** (2016). *Hierarchical Attention Networks for Document Classification*. In Proceedings of NAACL-HLT. [[PDF]](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
-2. **Medentsiy, V.** *Document Representations*. University of Amsterdam. [[Slides]](https://cl-illc.github.io/semantics/resources/slides/DocumentRepresentations.pdf)
-
----
-
-**📧 Contact**: For questions or collaborations, feel free to reach out through the YouTube channel or GitHub.
-
-**⭐ Star this repository** if you find it helpful for your research or studies!
