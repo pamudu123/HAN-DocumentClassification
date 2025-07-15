@@ -3,10 +3,9 @@
 > **Paper**: Hierarchical Attention Networks for Document Classification (2016)  
 > **Authors**: Zichao Yang, Diyi Yang, Chris Dyer, Xiaodong He, Alex Smola, Eduard Hovy
 
-### 📄 Research Paper
-[Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
+📄 Research Paper: [Hierarchical Attention Networks for Document Classification](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
 
-### 🎥 Video Presentation
+#### 🎥 Video Presentation
 [HAN Document Classification Presentation](https://www.youtube.com/watch?v=JfgFRSjEucE&t=43s&ab_channel=PamuduRanasinghe)
 
 ## Model Overview
@@ -32,18 +31,18 @@
 `You are welcome to use any of the slides, vector images, and SVG image codes for your academic work.`
 
 ## 🖼️ Presentation Slides
-![Slide 1 - Title](presentation_slides/slide1.PNG)
-![Slide 2 - Introduction](presentation_slides/slide2.PNG)
-![Slide 3 - Motivation](presentation_slides/slide3.PNG)
-![Slide 4 - Problem Statement](presentation_slides/slide4.PNG)
-![Slide 5 - Architecture Overview](presentation_slides/slide5.PNG)
-![Slide 6 - Word Encoder](presentation_slides/slide6.PNG)
-![Slide 7 - Word Attention](presentation_slides/slide7.PNG)
-![Slide 8 - Sentence Encoder](presentation_slides/slide8.PNG)
-![Slide 9 - Sentence Attention](presentation_slides/slide9.PNG)
-![Slide 10 - Document Classification](presentation_slides/slide10.PNG)
-![Slide 11 - Experimental Setup](presentation_slides/slide11.PNG)
-![Slide 12 - Results](presentation_slides/slide12.PNG)
-![Slide 13 - Analysis](presentation_slides/slide13.PNG)
-![Slide 14 - Visualization](presentation_slides/slide14.PNG)
-![Slide 15 - Conclusion](presentation_slides/slide15.PNG)
+![Slide 1](presentation_slides/slide1.png)
+![Slide 2](presentation_slides/slide2.png)
+![Slide 3](presentation_slides/slide3.png)
+![Slide 4](presentation_slides/slide4.png)
+![Slide 5](presentation_slides/slide5.png)
+![Slide 6](presentation_slides/slide6.png)
+![Slide 7](presentation_slides/slide7.png)
+![Slide 8](presentation_slides/slide8.png)
+![Slide 9](presentation_slides/slide9.png)
+![Slide 10](presentation_slides/slide10.png)
+![Slide 11](presentation_slides/slide11.png)
+![Slide 12](presentation_slides/slide12.png)
+![Slide 13](presentation_slides/slide13.png)
+![Slide 14](presentation_slides/slide14.png)
+![Slide 15](presentation_slides/slide15.png)
