@@ -1,0 +1,125 @@
+<!-- filepath: c:\Users\PK\Desktop\MSC\Sem2\NLP\Papers\Presentation\intution.svg -->
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="350" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <!-- <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+    Document Architecture: Natural Hierarchical Structure
+  </text> -->
+  
+  <!-- Column Headers -->
+  <text x="150" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976d2">
+    Words
+  </text>
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f57c00">
+    Sentences
+  </text>
+  <text x="750" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#388e3c">
+    Document
+  </text>
+  
+  <!-- Column 1: Words (varying numbers per row) -->
+  <!-- Row 1 - 4 words -->
+  <rect x="30" y="100" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="50" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="80" y="100" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="100" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="130" y="100" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="150" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="180" y="100" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="200" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <!-- Row 2 - 2 words -->
+  <rect x="60" y="140" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="80" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="110" y="140" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="130" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <!-- Row 3 - 3 words -->
+  <rect x="45" y="180" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="65" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="95" y="180" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="115" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="145" y="180" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="165" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <!-- Row 4 - 2 words -->
+  <rect x="60" y="220" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="80" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="110" y="220" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="130" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <!-- Row 5 - 4 words -->
+  <rect x="30" y="260" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="50" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="80" y="260" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="100" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="130" y="260" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="150" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <rect x="180" y="260" width="40" height="25" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="3"/>
+  <text x="200" y="276" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Word</text>
+  
+  <text x="125" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">...</text>
+  
+  <!-- Arrow from Words to Sentences -->
+  <path d="M 250 200 L 330 200" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Column 2: Sentences (widths correspond to word counts) -->
+  <!-- Sentence 1 - corresponds to 4 words (wider) -->
+  <rect x="350" y="110" width="130" height="30" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="415" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Sentence 1</text>
+  
+  <!-- Sentence 2 - corresponds to 2 words (narrower) -->
+  <rect x="380" y="150" width="70" height="30" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="415" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Sentence 2</text>
+  
+  <!-- Sentence 3 - corresponds to 3 words (medium) -->
+  <rect x="365" y="190" width="100" height="30" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="415" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Sentence 3</text>
+  
+  <!-- Sentence 4 - corresponds to 2 words (narrower) -->
+  <rect x="380" y="230" width="70" height="30" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="415" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Sentence 4</text>
+  
+  <!-- Sentence 5 - corresponds to 4 words (wider) -->
+  <rect x="350" y="270" width="130" height="30" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="5"/>
+  <text x="415" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">Sentence 5</text>
+  
+  <text x="415" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">...</text>
+  
+  <!-- Arrow from Sentences to Document -->
+  <path d="M 490 200 L 620 200" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Column 3: Document (larger box) -->
+  <rect x="650" y="160" width="180" height="80" fill="#e8f5e8" stroke="#388e3c" stroke-width="3" rx="8"/>
+  <text x="740" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Document</text>
+  <text x="740" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">(Collection of</text>
+  <text x="740" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Sentences)</text>
+  
+  <!-- Explanatory text
+  <text x="450" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#555">
+    The model's architecture should mirror this natural structure of a document
+  </text> -->
+  
+  <!-- Vertical separator lines -->
+  <line x1="300" y1="80" x2="300" y2="350" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="580" y1="80" x2="580" y2="350" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Arrow marker definition -->
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" 
+            refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

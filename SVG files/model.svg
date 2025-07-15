@@ -1,0 +1,79 @@
+<!-- filepath: c:\Users\PK\Desktop\MSC\Sem2\NLP\Papers\Presentation\model.svg -->
+<svg width="1400" height="300" viewBox="0 0 1400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .box {
+        fill: #e8e8e8;
+        stroke: #666;
+        stroke-width: 2;
+        rx: 15;
+        ry: 15;
+      }
+      .text {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #333;
+      }
+      .label {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        fill: #666;
+      }
+      .arrow {
+        stroke: #333;
+        stroke-width: 2;
+        fill: none;
+        marker-end: url(#arrowhead);
+      }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Word embedding box -->
+  <rect class="box" x="20" y="100" width="100" height="100"/>
+  <text class="text" x="70" y="145">Word</text>
+  <text class="text" x="70" y="160">embedding</text>
+  
+  <!-- First BiGRU box -->
+  <rect class="box" x="220" y="100" width="100" height="100"/>
+  <text class="text" x="270" y="150">BiGRU</text>
+  
+  <!-- First Attention box -->
+  <rect class="box" x="420" y="100" width="100" height="100"/>
+  <text class="text" x="470" y="150">Attention</text>
+  
+  <!-- Second BiGRU box -->
+  <rect class="box" x="620" y="100" width="100" height="100"/>
+  <text class="text" x="670" y="150">BiGRU</text>
+  
+  <!-- Second Attention box -->
+  <rect class="box" x="820" y="100" width="100" height="100"/>
+  <text class="text" x="870" y="150">Attention</text>
+  
+  <!-- Softmax box -->
+  <rect class="box" x="1020" y="100" width="100" height="100"/>
+  <text class="text" x="1070" y="150">Softmax</text>
+  
+  <!-- Arrows -->
+  <line class="arrow" x1="140" y1="150" x2="210" y2="150"/>
+  <line class="arrow" x1="320" y1="150" x2="410" y2="150"/>
+  <line class="arrow" x1="520" y1="150" x2="610" y2="150"/>
+  <line class="arrow" x1="720" y1="150" x2="810" y2="150"/>
+  <line class="arrow" x1="920" y1="150" x2="1010" y2="150"/>
+  
+  <!-- Labels on arrows -->
+  <!-- Labels on arrows -->
+  <text class="label" x="175" y="140">x₍ᵢₜ₎</text>
+  <text class="label" x="365" y="140">[h₍ᵢₜ₎, h̄₍ᵢₜ₎]</text>
+  <text class="label" x="565" y="140">sᵢ</text>
+  <text class="label" x="765" y="140">[hᵢ, h̄ᵢ]</text>
+  <text class="label" x="965" y="140">V</text>
+</svg>

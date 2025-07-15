@@ -1,0 +1,226 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+    <defs>
+        <style>
+            .header { font-size: 16px; font-weight: bold; fill: #2C3E50; text-anchor: middle; }
+            .dataset-label { font-size: 12px; font-weight: bold; fill: #34495E; }
+            .method-label { font-size: 10px; fill: #2C3E50; }
+            .score-text { font-size: 9px; fill: white; text-anchor: middle; font-weight: bold; }
+            .year-label { font-size: 11px; fill: #7F8C8D; text-anchor: middle; }
+            .legend-text { font-size: 10px; fill: #2C3E50; }
+            .legend-text-small { font-size: 9px; fill: #2C3E50; }
+            .header-small { font-size: 12px; font-weight: bold; fill: #2C3E50; text-anchor: middle; }
+            .header-medium { font-size: 14px; font-weight: bold; fill: #2C3E50; text-anchor: middle; }
+            .hn-method { fill: #8E44AD; font-weight: bold; }
+            
+            .best-score { fill: #27AE60; }
+            .good-score { fill: #3498DB; }
+            .avg-score { fill: #F39C12; }
+            .low-score { fill: #E74C3C; }
+            .no-data { fill: #BDC3C7; }
+            
+            .highlight-paper { stroke: #8E44AD; stroke-width: 2; }
+            .highlight-previous-best { stroke: #D35400; stroke-width: 2; }
+        </style>
+    </defs>
+
+    <!-- White Background -->
+    <rect width="100%" height="100%" fill="white"/>
+
+    <!-- Title -->
+    <text x="400" y="25" class="header">Document Classification Performance Comparison</text>
+
+    <!-- Dataset Headers - 5 datasets -->
+    <text x="147" y="55" class="dataset-label">Yelp'13</text>
+    <text x="217" y="55" class="dataset-label">Yelp'14</text>
+    <text x="287" y="55" class="dataset-label">Yelp'15</text>
+    <text x="357" y="55" class="dataset-label">IMDB</text>
+    <text x="427" y="55" class="dataset-label">Yahoo</text>
+
+    <!-- BoW -->
+    <text x="20" y="107" class="method-label">BoW</text>
+    <rect x="130" y="95" width="35" height="20" class="no-data"/>
+    <text x="147" y="107" class="score-text">-</text>
+    <rect x="200" y="95" width="35" height="20" class="no-data"/>
+    <text x="217" y="107" class="score-text">-</text>
+    <rect x="270" y="95" width="35" height="20" class="avg-score"/>
+    <text x="287" y="107" class="score-text">58.0</text>
+    <rect x="340" y="95" width="35" height="20" class="no-data"/>
+    <text x="357" y="107" class="score-text">-</text>
+    <rect x="410" y="95" width="35" height="20" class="good-score"/>
+    <text x="427" y="107" class="score-text">68.9</text>
+
+    <!-- BoW TFIDF -->
+    <text x="20" y="132" class="method-label">BoW TFIDF</text>
+    <rect x="130" y="120" width="35" height="20" class="no-data"/>
+    <text x="147" y="132" class="score-text">-</text>
+    <rect x="200" y="120" width="35" height="20" class="no-data"/>
+    <text x="217" y="132" class="score-text">-</text>
+    <rect x="270" y="120" width="35" height="20" class="avg-score"/>
+    <text x="287" y="132" class="score-text">59.9</text>
+    <rect x="340" y="120" width="35" height="20" class="no-data"/>
+    <text x="357" y="132" class="score-text">-</text>
+    <rect x="410" y="120" width="35" height="20" class="best-score"/>
+    <text x="427" y="132" class="score-text">71.0</text>
+
+    <!-- Majority -->
+    <text x="20" y="157" class="method-label">Majority</text>
+    <rect x="130" y="145" width="35" height="20" class="low-score"/>
+    <text x="147" y="157" class="score-text">35.6</text>
+    <rect x="200" y="145" width="35" height="20" class="low-score"/>
+    <text x="217" y="157" class="score-text">36.1</text>
+    <rect x="270" y="145" width="35" height="20" class="low-score"/>
+    <text x="287" y="157" class="score-text">36.9</text>
+    <rect x="340" y="145" width="35" height="20" class="low-score"/>
+    <text x="357" y="157" class="score-text">17.9</text>
+    <rect x="410" y="145" width="35" height="20" class="no-data"/>
+    <text x="427" y="157" class="score-text">-</text>
+
+    <!-- SVM + Bigrams -->
+    <text x="20" y="182" class="method-label">SVM + Bigrams</text>
+    <rect x="130" y="170" width="35" height="20" class="avg-score"/>
+    <text x="147" y="182" class="score-text">58.9</text>
+    <rect x="200" y="170" width="35" height="20" class="good-score"/>
+    <text x="217" y="182" class="score-text">60.0</text>
+    <rect x="270" y="170" width="35" height="20" class="good-score"/>
+    <text x="287" y="182" class="score-text">61.1</text>
+    <rect x="340" y="170" width="35" height="20" class="low-score"/>
+    <text x="357" y="182" class="score-text">39.9</text>
+    <rect x="410" y="170" width="35" height="20" class="no-data"/>
+    <text x="427" y="182" class="score-text">-</text>
+
+    <!-- SVM + Unigrams -->
+    <text x="20" y="207" class="method-label">SVM + Unigrams</text>
+    <rect x="130" y="195" width="35" height="20" class="avg-score"/>
+    <text x="147" y="207" class="score-text">57.6</text>
+    <rect x="200" y="195" width="35" height="20" class="good-score"/>
+    <text x="217" y="207" class="score-text">61.6</text>
+    <rect x="270" y="195" width="35" height="20" class="good-score"/>
+    <text x="287" y="207" class="score-text">62.4</text>
+    <rect x="340" y="195" width="35" height="20" class="low-score"/>
+    <text x="357" y="207" class="score-text">40.9</text>
+    <rect x="410" y="195" width="35" height="20" class="no-data"/>
+    <text x="427" y="207" class="score-text">-</text>
+
+    <!-- LSTM -->
+    <text x="20" y="232" class="method-label">LSTM</text>
+    <rect x="130" y="220" width="35" height="20" class="no-data"/>
+    <text x="147" y="232" class="score-text">-</text>
+    <rect x="200" y="220" width="35" height="20" class="no-data"/>
+    <text x="217" y="232" class="score-text">-</text>
+    <rect x="270" y="220" width="35" height="20" class="avg-score"/>
+    <text x="287" y="232" class="score-text">58.2</text>
+    <rect x="340" y="220" width="35" height="20" class="no-data"/>
+    <text x="357" y="232" class="score-text">-</text>
+    <rect x="410" y="220" width="35" height="20" class="best-score"/>
+    <text x="427" y="232" class="score-text">70.8</text>
+
+    <!-- CNN-char -->
+    <text x="20" y="257" class="method-label">CNN-char</text>
+    <rect x="130" y="245" width="35" height="20" class="no-data"/>
+    <text x="147" y="257" class="score-text">-</text>
+    <rect x="200" y="245" width="35" height="20" class="no-data"/>
+    <text x="217" y="257" class="score-text">-</text>
+    <rect x="270" y="245" width="35" height="20" class="good-score"/>
+    <text x="287" y="257" class="score-text">62.0</text>
+    <rect x="340" y="245" width="35" height="20" class="no-data"/>
+    <text x="357" y="257" class="score-text">-</text>
+    <rect x="410" y="245" width="35" height="20" class="best-score highlight-previous-best"/>
+    <text x="427" y="257" class="score-text">71.2</text>
+
+    <!-- Conv-GRNN -->
+    <text x="20" y="282" class="method-label">Conv-GRNN</text>
+    <rect x="130" y="270" width="35" height="20" class="good-score"/>
+    <text x="147" y="282" class="score-text">63.7</text>
+    <rect x="200" y="270" width="35" height="20" class="good-score"/>
+    <text x="217" y="282" class="score-text">65.5</text>
+    <rect x="270" y="270" width="35" height="20" class="good-score"/>
+    <text x="287" y="282" class="score-text">66.0</text>
+    <rect x="340" y="270" width="35" height="20" class="low-score"/>
+    <text x="357" y="282" class="score-text">42.5</text>
+    <rect x="410" y="270" width="35" height="20" class="no-data"/>
+    <text x="427" y="282" class="score-text">-</text>
+
+    <!-- LSTM-GRNN -->
+    <text x="20" y="307" class="method-label">LSTM-GRNN</text>
+    <rect x="130" y="295" width="35" height="20" class="good-score highlight-previous-best"/>
+    <text x="147" y="307" class="score-text">65.1</text>
+    <rect x="200" y="295" width="35" height="20" class="good-score highlight-previous-best"/>
+    <text x="217" y="307" class="score-text">67.1</text>
+    <rect x="270" y="295" width="35" height="20" class="good-score highlight-previous-best"/>
+    <text x="287" y="307" class="score-text">67.6</text>
+    <rect x="340" y="295" width="35" height="20" class="low-score highlight-previous-best"/>
+    <text x="357" y="307" class="score-text">45.3</text>
+    <rect x="410" y="295" width="35" height="20" class="no-data"/>
+    <text x="427" y="307" class="score-text">-</text>
+
+    <!-- HN-AVE -->
+    <text x="20" y="342" class="method-label hn-method">HN-AVE</text>
+    <rect x="130" y="330" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="147" y="342" class="score-text">67.0</text>
+    <rect x="200" y="330" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="217" y="342" class="score-text">69.3</text>
+    <rect x="270" y="330" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="287" y="342" class="score-text">69.9</text>
+    <rect x="340" y="330" width="35" height="20" class="low-score highlight-paper"/>
+    <text x="357" y="342" class="score-text">47.8</text>
+    <rect x="410" y="330" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="427" y="342" class="score-text">75.2</text>
+
+    <!-- HN-MAX -->
+    <text x="20" y="367" class="method-label hn-method">HN-MAX</text>
+    <rect x="130" y="355" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="147" y="367" class="score-text">66.9</text>
+    <rect x="200" y="355" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="217" y="367" class="score-text">69.3</text>
+    <rect x="270" y="355" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="287" y="367" class="score-text">70.1</text>
+    <rect x="340" y="355" width="35" height="20" class="low-score highlight-paper"/>
+    <text x="357" y="367" class="score-text">48.2</text>
+    <rect x="410" y="355" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="427" y="367" class="score-text">75.2</text>
+
+    <!-- HN-ATT -->
+    <text x="20" y="392" class="method-label hn-method">HN-ATT</text>
+    <rect x="130" y="380" width="35" height="20" class="good-score highlight-paper"/>
+    <text x="147" y="392" class="score-text">68.2</text>
+    <rect x="200" y="380" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="217" y="392" class="score-text">70.5</text>
+    <rect x="270" y="380" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="287" y="392" class="score-text">71.0</text>
+    <rect x="340" y="380" width="35" height="20" class="low-score highlight-paper"/>
+    <text x="357" y="392" class="score-text">49.4</text>
+    <rect x="410" y="380" width="35" height="20" class="best-score highlight-paper"/>
+    <text x="427" y="392" class="score-text">75.8</text>
+
+    <!-- Legend -->
+    <rect x="500" y="100" width="200" height="140" fill="none" stroke="#BDC3C7" stroke-width="1" rx="5"/>
+    <text x="600" y="118" class="header-small">Legend</text>
+    
+    <rect x="510" y="128" width="15" height="12" class="best-score"/>
+    <text x="532" y="137" class="legend-text-small">Best (≥70%)</text>
+    
+    <rect x="510" y="145" width="15" height="12" class="good-score"/>
+    <text x="532" y="154" class="legend-text-small">Good (60-69%)</text>
+    
+    <rect x="510" y="162" width="15" height="12" class="avg-score"/>
+    <text x="532" y="171" class="legend-text-small">Average (50-59%)</text>
+    
+    <rect x="510" y="179" width="15" height="12" class="low-score"/>
+    <text x="532" y="188" class="legend-text-small">Low (&lt;50%)</text>
+    
+    <rect x="510" y="196" width="15" height="12" class="no-data"/>
+    <text x="532" y="205" class="legend-text-small">No Data</text>
+    
+    <rect x="510" y="213" width="15" height="12" fill="white" stroke="#8E44AD" stroke-width="2"/>
+    <text x="532" y="222" class="legend-text-small">HN Methods</text>
+    
+    <rect x="620" y="213" width="15" height="12" fill="white" stroke="#D35400" stroke-width="2"/>
+    <text x="642" y="222" class="legend-text-small">Previous Best</text>
+
+    <!-- Key Insights -->
+    <text x="400" y="460" class="header-medium">Key Insights</text>
+    <text x="50" y="485" class="legend-text">• HN methods consistently outperform all baseline methods across datasets</text>
+    <text x="50" y="500" class="legend-text">• HN-ATT achieves the best overall performance with 75.8% on Yahoo dataset</text>
+    <text x="50" y="515" class="legend-text">• Significant improvements over previous best methods (LSTM-GRNN, BoW TFIDF)</text>
+    <text x="50" y="530" class="legend-text">• HN-ATT shows consistent improvements: +3.1% (Yelp'13), +3.4% (Yelp'14), +3.4% (Yelp'15)</text>
+</svg>

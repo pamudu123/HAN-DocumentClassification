@@ -1,0 +1,75 @@
+<svg width="450" height="320" viewBox="0 0 450 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+    <!-- SVG created by Gemini -->
+    <defs>
+        <style>
+            .sent-bg-pos { fill: #E8F5E9; } /* Light Green for positive */
+            .sent-bg-neg { fill: #FFEBEE; } /* Light Red for negative */
+            .sent-bg-low { fill: #ECEFF1; } /* Grey for low attention */
+            
+            .word-bg-pos { fill: #A5D6A7; } /* Darker Green */
+            .word-bg-neg { fill: #EF9A9A; } /* Darker Red */
+
+            .sent-text { font-size: 14px; fill: #37474F; }
+            
+            .word-text-pos { font-weight: bold; fill: #1B5E20; } /* Dark Green text */
+            .word-text-neg { font-weight: bold; fill: #B71C1C; } /* Dark Red text */
+            .word-text-low { fill: #546E7A; }
+
+            .sentiment-text { font-size: 16px; font-weight: bold; text-anchor: middle; }
+        </style>
+    </defs>
+
+    <!-- White Background -->
+    <rect width="100%" height="100%" fill="white"/>
+
+    <!-- Sentence 1 (Low Attention) -->
+    <rect x="20" y="50" width="410" height="30" class="sent-bg-low" rx="5"/>
+    <text x="30" y="70" class="sent-text" style="opacity: 0.6;">The waiter was friendly.</text>
+
+    <!-- Sentence 2 (High Attention - Negative) -->
+    <rect x="20" y="90" width="410" height="30" class="sent-bg-neg" rx="5"/>
+    <!-- Highlight for the important word -->
+    <rect x="245" y="94" width="33" height="22" class="word-bg-neg" rx="3"/>
+    <text x="30" y="110" class="sent-text">
+        <tspan class="word-text-low">But the wait time for our food was</tspan>
+        <tspan class="word-text-neg" dx="5">long</tspan>
+        <tspan class="word-text-low">.</tspan>
+    </text>
+
+    <!-- Sentence 3 (High Attention - Positive) -->
+    <rect x="20" y="130" width="410" height="30" class="sent-bg-pos" rx="5"/>
+    <!-- Highlight for the important word -->
+    <rect x="218" y="134" width="55" height="22" class="word-bg-pos" rx="3"/>
+     <text x="30" y="150" class="sent-text">
+        <tspan class="word-text-low">When the food arrived, it was</tspan>
+        <tspan class="word-text-pos" dx="5">perfect</tspan>
+        <tspan class="word-text-low">.</tspan>
+    </text>
+
+    <!-- Sentence 4 (Low Attention) -->
+    <rect x="20" y="170" width="410" height="30" class="sent-bg-low" rx="5"/>
+    <text x="30" y="190" class="sent-text" style="opacity: 0.6;">I might come back.</text>
+
+    <!-- Legend -->
+    <rect x="20" y="285" width="15" height="15" class="sent-bg-pos" rx="3"/>
+    <text x="40" y="297" font-size="12">Positive Sentence</text>
+    <rect x="150" y="285" width="15" height="15" class="sent-bg-neg" rx="3"/>
+    <text x="170" y="297" font-size="12">Negative Sentence</text>
+    <rect x="300" y="285" width="15" height="15" class="sent-bg-low" rx="3"/>
+    <text x="320" y="297" font-size="12">Less Important</text>
+
+</svg>
+    <text x="40" y="297" font-size="12">Positive Sentence</text>
+    <rect x="150" y="285" width="15" height="15" class="sent-bg-neg" rx="3"/>
+    <text x="170" y="297" font-size="12">Negative Sentence</text>
+    <rect x="300" y="285" width="15" height="15" class="sent-bg-low" rx="3"/>
+    <text x="320" y="297" font-size="12">Less Important</text> -->
+
+</svg>
+    <text x="40" y="297" font-size="12">Positive Sentence</text>
+    <rect x="150" y="285" width="15" height="15" class="sent-bg-neg" rx="3"/>
+    <text x="170" y="297" font-size="12">Negative Sentence</text>
+    <rect x="300" y="285" width="15" height="15" class="sent-bg-low" rx="3"/>
+    <text x="320" y="297" font-size="12">Less Important</text> -->
+
+</svg>
